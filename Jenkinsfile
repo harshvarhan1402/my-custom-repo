@@ -11,7 +11,7 @@ pipeline {
                 echo 'hello'
             }
         }
-        stage('hello') {
+        stage('hardik') {
             steps {
                 sh 'cd /home/ubuntu/; cat hardik'
             }
